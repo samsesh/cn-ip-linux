@@ -22,27 +22,15 @@ This script allows you to block or accept IP addresses from specific countries u
    ```bash
    git clone https://github.com/samsesh/cn-ip-linux
    cd cn-ip-linux
-
-Or create the script directly:
-
-bash
-
-nano manage_ips.sh
-
-Paste the script content into the file and save it.
-
-    Make the script executable:
-
-    bash
-
+```
 chmod +x manage_ips.sh
-
+```
 Run the script with root privileges:
 
-bash
+```bash
 
     sudo ./manage_ips.sh
-
+```
     Follow the prompts:
         Enter the 2-letter codes of the countries you want to manage (e.g., IS,CN).
         Choose an action:
